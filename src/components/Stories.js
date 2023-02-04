@@ -41,15 +41,15 @@ const Stories = () => {
   ];
 
   return (
-    <div className="flex justify-center space-x-3 ">
-      {stories.map((story, id) => (
+    <div className="flex justify-center space-x-3">
+      {/* {stories.map((story, id) => (
         <StoryCard
           key={id}
           name={story.name}
           profile={story.profile}
           src={story.src}
         />
-      ))}
+      ))} */}
     </div>
   );
 };

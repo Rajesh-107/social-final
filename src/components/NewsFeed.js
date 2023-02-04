@@ -1,5 +1,6 @@
 import React from 'react';
 import InputBox from './InputBox';
+import Posts from './Posts';
 import Stories from './Stories';
 
 const NewsFeed = () => {
@@ -12,6 +13,7 @@ const NewsFeed = () => {
                 {/* InputBox */}
                 <InputBox/>
                 {/* Posts */}
+                <Posts/>
             </div>
         </div>
     );
